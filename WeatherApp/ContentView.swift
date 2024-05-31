@@ -13,8 +13,9 @@ struct ContentView: View {
             Button("Get Coordinates"){
                 Task{
                     let geocodingClient = GeocodingClient()
+                    let weatherClient = WeatherClient()
                     let location = try! await geocodingClient.coordinateByCity(city: "Pretoria")
-                    print(location)
+                    let weather = try! await  weatherClient.fetchWeather(location: location!)
                 }
             }
         }
