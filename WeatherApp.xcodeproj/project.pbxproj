@@ -15,6 +15,7 @@
 		9461ED922C07A7B300669FBF /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED912C07A7B300669FBF /* Weather.swift */; };
 		9461ED952C07AC2500669FBF /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED942C07AC2500669FBF /* ApiEndPoint.swift */; };
 		9461ED982C07AE7F00669FBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED972C07AE7F00669FBF /* Constants.swift */; };
+		9461ED9A2C0A50C300669FBF /* GeocodingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED992C0A50C300669FBF /* GeocodingClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9461ED912C07A7B300669FBF /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		9461ED942C07AC2500669FBF /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
 		9461ED972C07AE7F00669FBF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9461ED992C0A50C300669FBF /* GeocodingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9461ED942C07AC2500669FBF /* ApiEndPoint.swift */,
+				9461ED992C0A50C300669FBF /* GeocodingClient.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				9461ED952C07AC2500669FBF /* ApiEndPoint.swift in Sources */,
 				9461ED922C07A7B300669FBF /* Weather.swift in Sources */,
+				9461ED9A2C0A50C300669FBF /* GeocodingClient.swift in Sources */,
 				9461ED812C07A08000669FBF /* ContentView.swift in Sources */,
 				9461ED902C07A70000669FBF /* Location.swift in Sources */,
 				9461ED7F2C07A08000669FBF /* WeatherAppApp.swift in Sources */,
