@@ -17,6 +17,7 @@
 		9461ED982C07AE7F00669FBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED972C07AE7F00669FBF /* Constants.swift */; };
 		9461ED9A2C0A50C300669FBF /* GeocodingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED992C0A50C300669FBF /* GeocodingClient.swift */; };
 		9461ED9C2C0A5D4200669FBF /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED9B2C0A5D4200669FBF /* WeatherClient.swift */; };
+		9461ED9F2C0A682900669FBF /* MeasurementFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED9E2C0A682900669FBF /* MeasurementFormatter+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		9461ED972C07AE7F00669FBF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9461ED992C0A50C300669FBF /* GeocodingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingClient.swift; sourceTree = "<group>"; };
 		9461ED9B2C0A5D4200669FBF /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
+		9461ED9E2C0A682900669FBF /* MeasurementFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeasurementFormatter+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		9461ED7D2C07A08000669FBF /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				9461ED9D2C0A67B000669FBF /* Extensions */,
 				9461ED962C07AE5600669FBF /* Utilities */,
 				9461ED932C07ABEA00669FBF /* Clients */,
 				9461ED8C2C07A69100669FBF /* Models */,
@@ -107,6 +110,14 @@
 				9461ED972C07AE7F00669FBF /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9461ED9D2C0A67B000669FBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9461ED9E2C0A682900669FBF /* MeasurementFormatter+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				9461ED9A2C0A50C300669FBF /* GeocodingClient.swift in Sources */,
 				9461ED812C07A08000669FBF /* ContentView.swift in Sources */,
 				9461ED902C07A70000669FBF /* Location.swift in Sources */,
+				9461ED9F2C0A682900669FBF /* MeasurementFormatter+Extensions.swift in Sources */,
 				9461ED9C2C0A5D4200669FBF /* WeatherClient.swift in Sources */,
 				9461ED7F2C07A08000669FBF /* WeatherAppApp.swift in Sources */,
 				9461ED982C07AE7F00669FBF /* Constants.swift in Sources */,
